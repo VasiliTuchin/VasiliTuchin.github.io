@@ -1,0 +1,125 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    max-width: 400px;
+    margin: 20px auto;
+    
+    
+    
+    
+    
+    
+    
+    
+}
+body.Volvo{
+    background:linear-gradient(to bottom right,white,brown);
+
+}
+body.Ford{
+    background:linear-gradient(to bottom right, white,black);
+
+
+}
+body.Aston{
+    background:linear-gradient(to bottom right, white,blue);
+
+
+}
+
+
+h1{
+    
+    font-size:50px;
+    font-variant:small-caps;
+    color: aliceblue;
+    margin-left: -150;
+    text-shadow: 6px 6px 6px rgba(0,0,0,0.5);
+
+}
+p{
+    font-weight: bold;
+    margin-left: -150px;
+    background-color:azure ;
+    border:2px solid black;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-bottom: 5px;
+
+
+}
+
+img{
+    width: 190%;
+    max-width: 800px;
+    display: block;
+    margin:0 auto;
+    border-radius: 50px;
+    margin-top:-400;
+    margin-left: -150;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border: 3px solid rgba(245, 245, 220, 0);
+    
+    
+}
+img:hover {
+    transform: scale(1.02);
+    
+    
+}
+img.Aston{
+    
+    background: linear-gradient(white,blue) border-box;
+
+}
+img.Volvo{
+    
+    background: linear-gradient(white,red) border-box;
+    
+}
+img.Ford{
+    
+    background: linear-gradient(white,black) border-box;
+    
+}
+    
+
+#l {
+    background-color:rgba(0, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: -130;
+    margin-top:120;
+    zoom: 2.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#r {
+    background-color:rgba(0, 255, 255, 0);
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    font-weight: bold;
+    margin-left: 275;
+    margin-top:-300;
+    zoom: 2.5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+   
+
+
+
+
+.car-block {
+    display: flex;
+    align-items: center;    /* центрирует по вертикали */
+    gap: 20px;              /* расстояние между кнопкой и картинкой */
+    flex-wrap: wrap;        /* чтобы на телефоне не ломалось */
+}
+
+
+    
+    
+
+
